@@ -4,6 +4,7 @@ const fetchDonnees = () =>
 
 const creerLigneTableau = (donnee) => `
     <tr class="border-b">
+        <td class="p-2 border-r w-12 h-12"><img src="${donnee.avatar}"></td>
         <td class="p-2 border-r">${donnee.id}</td>
         <td class="p-2 border-r">${donnee.first_name} ${donnee.last_name}</td>
         <td class="p-2">${donnee.email}</td>
@@ -13,6 +14,7 @@ const creerLigneTableau = (donnee) => `
 const creerTableau = (donnees) => `
     <thead>
         <tr class="bg-gray-200">
+            <th></th>
             <th class="p-2 border-r">ID</th>
             <th class="p-2 border-r">Nom</th>
             <th class="p-2">Email</th>
@@ -30,6 +32,7 @@ const afficherTableau = (html) => {
 const tableauAvecLesDonnees = () => {
     fetchDonnees()
         .then(creerTableau)
+        .then(console.log(creerLigneTableau))
         .then(afficherTableau);
 };
 
