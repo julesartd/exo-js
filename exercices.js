@@ -116,3 +116,13 @@ function nombreEnTexte(num) {
     };
     return nombresEnTexte[num];
 }
+
+function getData() {
+    fetch('https://random-data-api.com/api/v2/users?size=10')
+        .then(function(res) { return res.json(); })
+        .then(function(donnees) {
+            donnees.map(function(donnee) {
+                console.log(donnee);
+            });
+        });
+}

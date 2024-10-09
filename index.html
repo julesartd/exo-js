@@ -4,18 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Exo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>Choisissez un exercice</h1>
+<body class="flex flex-col w-full p-10">
 
-    <select id="exo" onchange="startExo()">
-        <option value="">Selectionnez un exercice</option>
-        <option value="1">Exercice 1</option>
-        <option value="2">Exercice 2</option>
-        <option value="3">Exercice 3</option>
-        <option value="fizzBuzz">FizzBuzz</option>
-    </select>
+    <h1 class="text-center bold text-center">Exercices JS</h1>
 
+    <section class="flex flex-col w-fit">
+
+        <select id="exo" onchange="startExo()">
+            <option value="">Selectionnez un exercice</option>
+            <option value="1">Exercice 1</option>
+            <option value="2">Exercice 2</option>
+            <option value="3">Exercice 3</option>
+            <option value="fizzBuzz">FizzBuzz</option>
+        </select>
+
+    </section>
+    
+    <section class="flex flex-row justify-center py-20">
+
+        <table>
+        </table>
+    </section>
+
+    <script src="api.js"></script>
     <script src="exercices.js"></script>
 </body>
 </html>
