@@ -20,12 +20,12 @@ function startExo() {
 }
 
 function exo1() {
-    let num1 = parseInt(prompt("Entrez le premier entier :"));
+    let num1 = Number(prompt("Entrez le premier entier :"));
     if (isNaN(num1)) {
         alert("Veuillez saisir un entier valide.");
         return;
     }
-    let num2 = parseInt(prompt("Entrez le deuxième entier :"));
+    let num2 = Number(prompt("Entrez le deuxième entier :"));
     if (isNaN(num2)) {
         alert("Veuillez saisir un entier valide.");
         return;
@@ -41,12 +41,12 @@ function exo1() {
 }
 
 function exo2() {
-    let num1 = parseInt(prompt("Entrez le premier entier :"));
+    let num1 = Number(prompt("Entrez le premier entier :"));
     if (isNaN(num1)) {
         alert("Veuillez saisir un entier valide.");
         return;
     }
-    let num2 = parseInt(prompt("Entrez le deuxième entier :"));
+    let num2 = Number(prompt("Entrez le deuxième entier :"));
     if (isNaN(num2)) {
         alert("Veuillez saisir un entier valide.");
         return;
@@ -63,24 +63,24 @@ function exo2() {
 }
 
 function exo3() {
-    let num1 = parseInt(prompt("Entrez le premier entier :"));
+    let num1 = Number(prompt("Entrez le premier entier :"));
     if (isNaN(num1)) {
         alert("Veuillez saisir un entier valide.");
         return;
     }
-    let num2 = parseInt(prompt("Entrez le deuxième entier :"));
+    let num2 = Number(prompt("Entrez le deuxième entier :"));
     if (isNaN(num2)) {
         alert("Veuillez saisir un entier valide.");
         return;
     }
-    let num3 = parseInt(prompt("Entrez le troisième entier :"));
+    let num3 = Number(prompt("Entrez le troisième entier :"));
     if (isNaN(num3)) {
         alert("Veuillez saisir un entier valide.");
         return;
     }
 
     let nombres = [num1, num2, num3];
-    nombres.sort((a, b) => a - b);
+    nombres.sort();
 
     console.log(`Les nombres triés sont : ${nombres.join(", ")}`);
 }
