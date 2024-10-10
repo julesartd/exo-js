@@ -56,8 +56,8 @@ const fetchData = async () => {
         });
 
         // Calcul du temps d'ouverture global en minutes
-        const tempsTotal = mairiesOuvertes.reduce((total, hall) => {
-            return total + hall.tempsOuvertureJournee();
+        const tempsTotal = mairiesOuvertes.reduce((total, mairie) => {
+            return total + mairie.tempsOuvertureJournee();
         }, 0);
 
         console.log(`Temps d'ouverture global pour toutes les mairies : ${tempsTotal} minutes`); 
