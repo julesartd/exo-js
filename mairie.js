@@ -9,8 +9,12 @@ function Mairie(name, isopen, averagewaitingtime, dayschedule) {
     this.tempsOuvertureJournee = function() {
         return this.dayschedule.reduce((total, schedule) => {
             const openTime = schedule.openingHour * 60 + schedule.openingMinute;
+    
             const closeTime = schedule.closingHour * 60 + schedule.closingMinute;
-            return total + (closeTime - openTime);
+    
+            const openingDuration = closeTime - openTime;
+    
+            return total + openingDuration;
         }, 0);
     };
 }
