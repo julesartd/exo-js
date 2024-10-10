@@ -118,7 +118,7 @@ function nombreEnTexte(num) {
 }
 
 function getData() {
-    fetch('https://random-data-api.com/api/v2/users?size=10')
+    fetch('https://random-data-api.com/api/v2/users?size=5')
         .then(function(res) { return res.json(); })
         .then(function(donnees) {
             donnees.map(function(donnee) {

@@ -6,37 +6,65 @@
     <title>JS Exo</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="flex flex-col w-full p-10">
+<body class="flex flex-row w-full p-10">
 
+<aside class="w-1/4 p-5 bg-gray-200">
+    <h2 class="text-lg font-bold">Menu</h2>
+    <ul>
+        <li><a href="#" onclick="loadPage('exercice1')">Exercice 1</a></li>
+        <li><a href="#" onclick="loadPage('exercice2')">Exercice 2</a></li>
+        <li><a href="#" onclick="loadPage('exercice3')">Exercice 3</a></li>
+        <li><a href="#" onclick="loadPage('fizzBuzz')">FizzBuzz</a></li>
+        <li><a href="#" onclick="loadPage('users')">Liste des utilisateurs</a></li>
+        <li><a href="#" onclick="loadPage('mairie')">Mairie</a></li>
+    </ul>
+</aside>
+
+<main class="flex flex-col w-3/4 p-10">
     <h1 class="text-center bold text-center">Exercices JS</h1>
-
-    <section class="flex flex-col w-fit">
-
-        <select id="exo" onchange="startExo()">
-            <option value="">Selectionnez un exercice</option>
-            <option value="1">Exercice 1</option>
-            <option value="2">Exercice 2</option>
-            <option value="3">Exercice 3</option>
-            <option value="fizzBuzz">FizzBuzz</option>
-        </select>
-
+    <section id="content" class="flex flex-col w-fit mt-10">
+        <!-- Ensure the table element is present in the DOM -->
+        <table></table>
     </section>
-    
-    <section class="flex flex-row justify-center py-20">
-        <table>
+</main>
 
-        </table>
-    </section>
+<script src="api.js"></script>
+<script src="exercices.js"></script>
+<script src="mairie.js"></script>
+<script>
+    function loadPage(page) {
+        const content = document.getElementById('content');
+        content.innerHTML = '';
 
-    <section>
-        <h2 class="text-center">Mairie</h2>
-        <table>
-
-        </table>
-  
-    </section>
-
-<!-- à)àpp^p^ -->
-    <script src="mairie.js"></script>
+        switch (page) {
+            case 'exercice1':
+                content.innerHTML = '<p>Résultat dans la console</p>';
+                exo1();
+                break;
+            case 'exercice2':
+                content.innerHTML = '<p>Résultat dans la console</p>';
+                exo2();
+                break;
+            case 'exercice3':
+                content.innerHTML = '<p>Résultat dans la console</p>';
+                exo3();
+                break;
+            case 'fizzBuzz':
+                content.innerHTML = '<p>Résultat dans la console</p>';
+                fizzBuzz();
+                break;
+            case 'mairie':
+                content.innerHTML = '<table></table>';
+                fetchData();
+                break;
+            case 'users':
+                content.innerHTML = '<table></table>';
+                tableauAvecLesDonnees();
+                break;
+            default:
+                content.innerHTML = '<p></p>';
+        }
+    }
+</script>
 </body>
 </html>

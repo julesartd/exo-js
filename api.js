@@ -36,5 +36,3 @@ const tableauAvecLesDonnees = () => {
         .then(afficherTableau);
 };
 
-
-tableauAvecLesDonnees();
