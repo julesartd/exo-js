@@ -1,0 +1,159 @@
+[
+  {
+    "Release": "22 (Upcoming LTS)",
+    "Released": "5 months and 2 weeks ago\n(24 Apr 2024)",
+    "Active Support": "Ends in 1 year\n(21 Oct 2025)",
+    "Security Support": "Ends in 2 years and 6 months\n(30 Apr 2027)",
+    "Latest": "22.9.0\n(17 Sep 2024)"
+  },
+  {
+    "Release": "21",
+    "Released": "11 months ago\n(17 Oct 2023)",
+    "Active Support": "Ended 6 months ago\n(01 Apr 2024)",
+    "Security Support": "Ended 4 months ago\n(01 Jun 2024)",
+    "Latest": "21.7.3\n(10 Apr 2024)"
+  },
+  {
+    "Release": "20 (LTS)",
+    "Released": "1 year and 5 months ago\n(18 Apr 2023)",
+    "Active Support": "Ends in 1 week and 5 days\n(22 Oct 2024)",
+    "Security Support": "Ends in 1 year and 6 months\n(30 Apr 2026)",
+    "Latest": "20.18.0\n(03 Oct 2024)"
+  },
+  {
+    "Release": "19",
+    "Released": "1 year and 11 months ago\n(18 Oct 2022)",
+    "Active Support": "Ended 1 year and 6 months ago\n(01 Apr 2023)",
+    "Security Support": "Ended 1 year and 4 months ago\n(01 Jun 2023)",
+    "Latest": "19.9.0\n(10 Apr 2023)"
+  },
+  {
+    "Release": "18 (LTS)",
+    "Released": "2 years and 5 months ago\n(19 Apr 2022)",
+    "Active Support": "Ended 11 months ago\n(18 Oct 2023)",
+    "Security Support": "Ends in 6 months and 3 weeks\n(30 Apr 2025)",
+    "Latest": "18.20.4\n(08 Jul 2024)"
+  },
+  {
+    "Release": "17",
+    "Released": "2 years and 11 months ago\n(19 Oct 2021)",
+    "Active Support": "Ended 2 years and 6 months ago\n(01 Apr 2022)",
+    "Security Support": "Ended 2 years and 4 months ago\n(01 Jun 2022)",
+    "Latest": "17.9.1\n(01 Jun 2022)"
+  },
+  {
+    "Release": "\n      \n      \n        16 (LTS)\n      \n    ",
+    "Released": "3 years and 5 months ago (20 Apr 2021)",
+    "Active Support": "\n    \n      Ended\n      1 year and 11 months ago (18 Oct 2022)\n    \n    ",
+    "Security Support": "\n      \n        Ended\n        1 year ago (11 Sep 2023)\n      \n    ",
+    "Latest": "\n      \n        16.20.2\n      \n      (09 Aug 2023)\n    "
+  },
+  {
+    "Release": "\n      \n      \n        15\n      \n    ",
+    "Released": "3 years and 11 months ago (20 Oct 2020)",
+    "Active Support": "\n    \n      Ended\n      3 years and 6 months ago (01 Apr 2021)\n    \n    ",
+    "Security Support": "\n      \n        Ended\n        3 years and 4 months ago (01 Jun 2021)\n      \n    ",
+    "Latest": "\n      \n        15.14.0\n      \n      (06 Apr 2021)\n    "
+  },
+  {
+    "Release": "\n      \n      \n        14 (LTS)\n      \n    ",
+    "Released": "4 years and 5 months ago (21 Apr 2020)",
+    "Active Support": "\n    \n      Ended\n      2 years and 11 months ago (19 Oct 2021)\n    \n    ",
+    "Security Support": "\n      \n        Ended\n        1 year and 5 months ago (30 Apr 2023)\n      \n    ",
+    "Latest": "\n      \n        14.21.3\n      \n      (16 Feb 2023)\n    "
+  },
+  {
+    "Release": "\n      \n      \n        13\n      \n    ",
+    "Released": "4 years and 11 months ago (22 Oct 2019)",
+    "Active Support": "\n    \n      Ended\n      4 years and 6 months ago (01 Apr 2020)\n    \n    ",
+    "Security Support": "\n      \n        Ended\n        4 years ago (01 Jun 2020)\n      \n    ",
+    "Latest": "\n      \n        13.14.0\n      \n      (29 Apr 2020)\n    "
+  },
+  {
+    "Release": "\n      \n      \n        12 (LTS)\n      \n    ",
+    "Released": "5 years ago (23 Apr 2019)",
+    "Active Support": "\n    \n      Ended\n      3 years and 11 months ago (20 Oct 2020)\n    \n    ",
+    "Security Support": "\n      \n        Ended\n        2 years and 5 months ago (30 Apr 2022)\n      \n    ",
+    "Latest": "\n      \n        12.22.12\n      \n      (05 Apr 2022)\n    "
+  },
+  {
+    "Release": "\n      \n      \n        11\n      \n    ",
+    "Released": "5 years and 11 months ago (23 Oct 2018)",
+    "Active Support": "\n    \n      Ended\n      5 years ago (01 Apr 2019)\n    \n    ",
+    "Security Support": "\n      \n        Ended\n        5 years ago (30 Jun 2019)\n      \n    ",
+    "Latest": "\n      \n        11.15.0\n      \n      (30 Apr 2019)\n    "
+  },
+  {
+    "Release": "\n      \n      \n        10 (LTS)\n      \n    ",
+    "Released": "6 years ago (24 Apr 2018)",
+    "Active Support": "\n    \n      Ended\n      4 years ago (19 May 2020)\n    \n    ",
+    "Security Support": "\n      \n        Ended\n        3 years and 5 months ago (30 Apr 2021)\n      \n    ",
+    "Latest": "\n      \n        10.24.1\n      \n      (06 Apr 2021)\n    "
+  },
+  {
+    "Release": "\n      \n      \n        9\n      \n    ",
+    "Released": "6 years and 11 months ago (31 Oct 2017)",
+    "Active Support": "\n    \n      Ended\n      6 years ago (30 Jun 2018)\n    \n    ",
+    "Security Support": "\n      \n        Ended\n        6 years ago (30 Jun 2018)\n      \n    ",
+    "Latest": "\n      \n        9.11.2\n      \n      (12 Jun 2018)\n    "
+  },
+  {
+    "Release": "\n      \n      \n        8 (LTS)\n      \n    ",
+    "Released": "7 years ago (30 May 2017)",
+    "Active Support": "\n    \n      Ended\n      5 years and 9 months ago (01 Jan 2019)\n    \n    ",
+    "Security Support": "\n      \n        Ended\n        4 years and 9 months ago (31 Dec 2019)\n      \n    ",
+    "Latest": "\n      \n        8.17.0\n      \n      (17 Dec 2019)\n    "
+  },
+  {
+    "Release": "\n      \n      \n        7\n      \n    ",
+    "Released": "7 years and 11 months ago (25 Oct 2016)",
+    "Active Support": "\n    \n      Ended\n      7 years ago (30 Jun 2017)\n    \n    ",
+    "Security Support": "\n      \n        Ended\n        7 years ago (30 Jun 2017)\n      \n    ",
+    "Latest": "\n      \n        7.10.1\n      \n      (11 Jul 2017)\n    "
+  },
+  {
+    "Release": "\n      \n      \n        6 (LTS)\n      \n    ",
+    "Released": "8 years ago (26 Apr 2016)",
+    "Active Support": "\n    \n      Ended\n      6 years ago (30 Apr 2018)\n    \n    ",
+    "Security Support": "\n      \n        Ended\n        5 years ago (30 Apr 2019)\n      \n    ",
+    "Latest": "\n      \n        6.17.1\n      \n      (03 Apr 2019)\n    "
+  },
+  {
+    "Release": "\n      \n      \n        5\n      \n    ",
+    "Released": "8 years and 11 months ago (30 Oct 2015)",
+    "Active Support": "\n    \n      Ended\n      8 years ago (30 Jun 2016)\n    \n    ",
+    "Security Support": "\n      \n        Ended\n        8 years ago (30 Jun 2016)\n      \n    ",
+    "Latest": "\n      \n        5.12.0\n      \n      (23 Jun 2016)\n    "
+  },
+  {
+    "Release": "\n      \n      \n        4 (LTS)\n      \n    ",
+    "Released": "9 years ago (09 Sep 2015)",
+    "Active Support": "\n    \n      Ended\n      7 years ago (01 Apr 2017)\n    \n    ",
+    "Security Support": "\n      \n        Ended\n        6 years ago (30 Apr 2018)\n      \n    ",
+    "Latest": "\n      \n        4.9.1\n      \n      (29 Mar 2018)\n    "
+  },
+  {
+    "Release": "\n      \n      \n        3\n      \n    ",
+    "Released": "9 years ago (04 Aug 2015)",
+    "Active Support": "\n    \n      No\n    \n    ",
+    "Security Support": "\n      \n        No\n      \n    ",
+    "Latest": "\n      \n        3.3.1\n      \n      (15 Sep 2015)\n    "
+  },
+  {
+    "Release": "\n      \n      \n        2\n      \n    ",
+    "Released": "9 years ago (04 May 2015)",
+    "Active Support": "\n    \n      No\n    \n    ",
+    "Security Support": "\n      \n        No\n      \n    ",
+    "Latest": "\n      \n        2.5.0\n      \n      (28 Jul 2015)\n    "
+  },
+  {
+    "Release": "\n      \n      \n        1\n      \n    ",
+    "Released": "9 years ago (20 Jan 2015)",
+    "Active Support": "\n    \n      No\n    \n    ",
+    "Security Support": "\n      \n        No\n      \n    ",
+    "Latest": "\n      \n        1.8.4\n      \n      (09 Jul 2015)\n    "
+  },
+  {
+    "Release": "Show more unmaintained releases"
+  }
+]

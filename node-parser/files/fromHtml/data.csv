@@ -1,0 +1,362 @@
+Release,Released,Active Support,Security Support,Latest
+22 (Upcoming LTS),"5 months and 2 weeks ago
+(24 Apr 2024)","Ends in 1 year
+(21 Oct 2025)","Ends in 2 years and 6 months
+(30 Apr 2027)","22.9.0
+(17 Sep 2024)"
+21,"11 months ago
+(17 Oct 2023)","Ended 6 months ago
+(01 Apr 2024)","Ended 4 months ago
+(01 Jun 2024)","21.7.3
+(10 Apr 2024)"
+20 (LTS),"1 year and 5 months ago
+(18 Apr 2023)","Ends in 1 week and 5 days
+(22 Oct 2024)","Ends in 1 year and 6 months
+(30 Apr 2026)","20.18.0
+(03 Oct 2024)"
+19,"1 year and 11 months ago
+(18 Oct 2022)","Ended 1 year and 6 months ago
+(01 Apr 2023)","Ended 1 year and 4 months ago
+(01 Jun 2023)","19.9.0
+(10 Apr 2023)"
+18 (LTS),"2 years and 5 months ago
+(19 Apr 2022)","Ended 11 months ago
+(18 Oct 2023)","Ends in 6 months and 3 weeks
+(30 Apr 2025)","18.20.4
+(08 Jul 2024)"
+17,"2 years and 11 months ago
+(19 Oct 2021)","Ended 2 years and 6 months ago
+(01 Apr 2022)","Ended 2 years and 4 months ago
+(01 Jun 2022)","17.9.1
+(01 Jun 2022)"
+"
+      
+      
+        16 (LTS)
+      
+    ",3 years and 5 months ago (20 Apr 2021),"
+    
+      Ended
+      1 year and 11 months ago (18 Oct 2022)
+    
+    ","
+      
+        Ended
+        1 year ago (11 Sep 2023)
+      
+    ","
+      
+        16.20.2
+      
+      (09 Aug 2023)
+    "
+"
+      
+      
+        15
+      
+    ",3 years and 11 months ago (20 Oct 2020),"
+    
+      Ended
+      3 years and 6 months ago (01 Apr 2021)
+    
+    ","
+      
+        Ended
+        3 years and 4 months ago (01 Jun 2021)
+      
+    ","
+      
+        15.14.0
+      
+      (06 Apr 2021)
+    "
+"
+      
+      
+        14 (LTS)
+      
+    ",4 years and 5 months ago (21 Apr 2020),"
+    
+      Ended
+      2 years and 11 months ago (19 Oct 2021)
+    
+    ","
+      
+        Ended
+        1 year and 5 months ago (30 Apr 2023)
+      
+    ","
+      
+        14.21.3
+      
+      (16 Feb 2023)
+    "
+"
+      
+      
+        13
+      
+    ",4 years and 11 months ago (22 Oct 2019),"
+    
+      Ended
+      4 years and 6 months ago (01 Apr 2020)
+    
+    ","
+      
+        Ended
+        4 years ago (01 Jun 2020)
+      
+    ","
+      
+        13.14.0
+      
+      (29 Apr 2020)
+    "
+"
+      
+      
+        12 (LTS)
+      
+    ",5 years ago (23 Apr 2019),"
+    
+      Ended
+      3 years and 11 months ago (20 Oct 2020)
+    
+    ","
+      
+        Ended
+        2 years and 5 months ago (30 Apr 2022)
+      
+    ","
+      
+        12.22.12
+      
+      (05 Apr 2022)
+    "
+"
+      
+      
+        11
+      
+    ",5 years and 11 months ago (23 Oct 2018),"
+    
+      Ended
+      5 years ago (01 Apr 2019)
+    
+    ","
+      
+        Ended
+        5 years ago (30 Jun 2019)
+      
+    ","
+      
+        11.15.0
+      
+      (30 Apr 2019)
+    "
+"
+      
+      
+        10 (LTS)
+      
+    ",6 years ago (24 Apr 2018),"
+    
+      Ended
+      4 years ago (19 May 2020)
+    
+    ","
+      
+        Ended
+        3 years and 5 months ago (30 Apr 2021)
+      
+    ","
+      
+        10.24.1
+      
+      (06 Apr 2021)
+    "
+"
+      
+      
+        9
+      
+    ",6 years and 11 months ago (31 Oct 2017),"
+    
+      Ended
+      6 years ago (30 Jun 2018)
+    
+    ","
+      
+        Ended
+        6 years ago (30 Jun 2018)
+      
+    ","
+      
+        9.11.2
+      
+      (12 Jun 2018)
+    "
+"
+      
+      
+        8 (LTS)
+      
+    ",7 years ago (30 May 2017),"
+    
+      Ended
+      5 years and 9 months ago (01 Jan 2019)
+    
+    ","
+      
+        Ended
+        4 years and 9 months ago (31 Dec 2019)
+      
+    ","
+      
+        8.17.0
+      
+      (17 Dec 2019)
+    "
+"
+      
+      
+        7
+      
+    ",7 years and 11 months ago (25 Oct 2016),"
+    
+      Ended
+      7 years ago (30 Jun 2017)
+    
+    ","
+      
+        Ended
+        7 years ago (30 Jun 2017)
+      
+    ","
+      
+        7.10.1
+      
+      (11 Jul 2017)
+    "
+"
+      
+      
+        6 (LTS)
+      
+    ",8 years ago (26 Apr 2016),"
+    
+      Ended
+      6 years ago (30 Apr 2018)
+    
+    ","
+      
+        Ended
+        5 years ago (30 Apr 2019)
+      
+    ","
+      
+        6.17.1
+      
+      (03 Apr 2019)
+    "
+"
+      
+      
+        5
+      
+    ",8 years and 11 months ago (30 Oct 2015),"
+    
+      Ended
+      8 years ago (30 Jun 2016)
+    
+    ","
+      
+        Ended
+        8 years ago (30 Jun 2016)
+      
+    ","
+      
+        5.12.0
+      
+      (23 Jun 2016)
+    "
+"
+      
+      
+        4 (LTS)
+      
+    ",9 years ago (09 Sep 2015),"
+    
+      Ended
+      7 years ago (01 Apr 2017)
+    
+    ","
+      
+        Ended
+        6 years ago (30 Apr 2018)
+      
+    ","
+      
+        4.9.1
+      
+      (29 Mar 2018)
+    "
+"
+      
+      
+        3
+      
+    ",9 years ago (04 Aug 2015),"
+    
+      No
+    
+    ","
+      
+        No
+      
+    ","
+      
+        3.3.1
+      
+      (15 Sep 2015)
+    "
+"
+      
+      
+        2
+      
+    ",9 years ago (04 May 2015),"
+    
+      No
+    
+    ","
+      
+        No
+      
+    ","
+      
+        2.5.0
+      
+      (28 Jul 2015)
+    "
+"
+      
+      
+        1
+      
+    ",9 years ago (20 Jan 2015),"
+    
+      No
+    
+    ","
+      
+        No
+      
+    ","
+      
+        1.8.4
+      
+      (09 Jul 2015)
+    "
+Show more unmaintained releases,,,,

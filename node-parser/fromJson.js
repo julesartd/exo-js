@@ -1,5 +1,5 @@
 import axios from 'axios';
-import {promises as fs} from 'fs';
+import {promises as fs} from 'node:fs';
 import Papa from 'papaparse';
 import xlsx from "json-as-xlsx";
 
@@ -19,12 +19,12 @@ async function getData() {
 
 async function createJsonFile(data) {
     const json = JSON.stringify(data, null, 2);
-    await fs.writeFile('data.json', json);
+    await fs.writeFile('files/fromJson/data.json', json);
     console.log('JSON file created successfully.');
 }
 
 function filterData(data) {
-    return data.map(({ employment, address, credit_card, subscription, ...rest }) => rest);
+    return data.map(({employment, address, credit_card, subscription, ...rest}) => rest);
 }
 
 function jsonToCsv(data) {
@@ -34,16 +34,12 @@ function jsonToCsv(data) {
 
 function jsonToExcel(data) {
     const filteredData = filterData(data);
-    const columns = Object.keys(filteredData[0]).map(key => ({ label: key, value: key }));
+    const columns = Object.keys(filteredData[0]).map(key => ({label: key, value: key}));
     const jsonSheet = {
-        sheet: 'Sheet1',
-        columns: columns,
-        content: filteredData
+        sheet: 'Sheet1', columns: columns, content: filteredData
     };
     const settings = {
-        fileName: 'data',
-        extraLength: 3,
-        writeOptions: {
+        fileName: 'data', extraLength: 3, writeOptions: {
             type: 'buffer'
         }
     };
@@ -52,15 +48,16 @@ function jsonToExcel(data) {
 
 async function createCsvFile(data) {
     const csv = jsonToCsv(data);
-    await fs.writeFile('data.csv', csv);
+    await fs.writeFile('files/fromJson/data.csv', csv);
     console.log('CSV file created successfully.');
 }
 
 async function createExcelFile(data) {
     const excelBuffer = jsonToExcel(data);
-    await fs.writeFile('data.xlsx', excelBuffer);
+    await fs.writeFile('files/fromJson/data.xlsx', excelBuffer);
     console.log('Excel file created successfully.');
 }
+
 async function main() {
     const format = (await getFormat()).toLowerCase();
 
